@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>731766985947-nk6vfkd2ll4t7hcb4i9b7mimt1ncmtfg.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.731766985947-nk6vfkd2ll4t7hcb4i9b7mimt1ncmtfg</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAjuDKHMmzHR1lPRNONMXgwJPeOq2pSGgU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>731766985947</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Bhavesh-Shah.NacDirect</string>
+	<key>PROJECT_ID</key>
+	<string>sportsconnect-ef70a</string>
+	<key>STORAGE_BUCKET</key>
+	<string>sportsconnect-ef70a.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:731766985947:ios:28b6ea7680f9cadf</string>
+	<key>DATABASE_URL</key>
+	<string>https://sportsconnect-ef70a.firebaseio.com</string>
+</dict>
+</plist>

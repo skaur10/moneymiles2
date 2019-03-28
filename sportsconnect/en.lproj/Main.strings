@@ -1,0 +1,66 @@
+
+/* Class = "UILabel"; text = "Which gender partner?"; ObjectID = "5BR-Nf-YFB"; */
+"5BR-Nf-YFB.text" = "Which gender partner?";
+
+/* Class = "UILabel"; text = "Indicate your availability below:"; ObjectID = "80W-Gs-C7y"; */
+"80W-Gs-C7y.text" = "Indicate your availability below:";
+
+/* Class = "UILabel"; text = "Gender"; ObjectID = "BeE-Lh-bUA"; */
+"BeE-Lh-bUA.text" = "Gender";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "J4Y-FX-hvE"; */
+"J4Y-FX-hvE.text" = "Password";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "ODo-7X-xmh"; */
+"ODo-7X-xmh.placeholder" = "Password";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "RT4-YE-C9R"; */
+"RT4-YE-C9R.text" = "Name";
+
+/* Class = "UISegmentedControl"; SSv-cI-AMD.segmentTitles[0] = "Male"; ObjectID = "SSv-cI-AMD"; */
+"SSv-cI-AMD.segmentTitles[0]" = "Male";
+
+/* Class = "UISegmentedControl"; SSv-cI-AMD.segmentTitles[1] = "Female"; ObjectID = "SSv-cI-AMD"; */
+"SSv-cI-AMD.segmentTitles[1]" = "Female";
+
+/* Class = "UISegmentedControl"; VZV-VR-i2Z.segmentTitles[0] = "Male"; ObjectID = "VZV-VR-i2Z"; */
+"VZV-VR-i2Z.segmentTitles[0]" = "Male";
+
+/* Class = "UISegmentedControl"; VZV-VR-i2Z.segmentTitles[1] = "Female"; ObjectID = "VZV-VR-i2Z"; */
+"VZV-VR-i2Z.segmentTitles[1]" = "Female";
+
+/* Class = "UISegmentedControl"; VnV-5C-IxU.segmentTitles[0] = "Male"; ObjectID = "VnV-5C-IxU"; */
+"VnV-5C-IxU.segmentTitles[0]" = "Male";
+
+/* Class = "UISegmentedControl"; VnV-5C-IxU.segmentTitles[1] = "Female"; ObjectID = "VnV-5C-IxU"; */
+"VnV-5C-IxU.segmentTitles[1]" = "Female";
+
+/* Class = "UILabel"; text = "How far can you travel?"; ObjectID = "YO1-7x-XEa"; */
+"YO1-7x-XEa.text" = "How far can you travel?";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "a51-HL-Abp"; */
+"a51-HL-Abp.placeholder" = "Username";
+
+/* Class = "UIButton"; normalTitle = "Update"; ObjectID = "aOY-qo-9sH"; */
+"aOY-qo-9sH.normalTitle" = "Update";
+
+/* Class = "UIButton"; normalTitle = "Find Events"; ObjectID = "bpo-tS-KCJ"; */
+"bpo-tS-KCJ.normalTitle" = "Find Events";
+
+/* Class = "UILabel"; text = "Username"; ObjectID = "coT-Nx-hde"; */
+"coT-Nx-hde.text" = "Username";
+
+/* Class = "UILabel"; text = "Welcome Back!"; ObjectID = "dRV-WA-TRO"; */
+"dRV-WA-TRO.text" = "Welcome Back!";
+
+/* Class = "UINavigationItem"; title = "Home"; ObjectID = "ePs-ea-YGQ"; */
+"ePs-ea-YGQ.title" = "Home";
+
+/* Class = "UILabel"; text = "Activity Name"; ObjectID = "hlE-BV-0Nb"; */
+"hlE-BV-0Nb.text" = "Activity Name";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "kbx-G0-juB"; */
+"kbx-G0-juB.normalTitle" = "Login";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "nAJ-ri-Lfn"; */
+"nAJ-ri-Lfn.normalTitle" = "Sign Up";
