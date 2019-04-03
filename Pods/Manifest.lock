@@ -68,12 +68,14 @@ PODS:
     - nanopb/encode (= 0.3.8)
   - nanopb/decode (0.3.8)
   - nanopb/encode (0.3.8)
+  - Stripe (15.0.0)
 
 DEPENDENCIES:
   - AlamofireImage
   - Firebase/Auth
   - Firebase/Core
   - Firebase/Database
+  - Stripe
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -91,6 +93,7 @@ SPEC REPOS:
     - GTMSessionFetcher
     - leveldb-library
     - nanopb
+    - Stripe
 
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
@@ -107,7 +110,8 @@ SPEC CHECKSUMS:
   GTMSessionFetcher: 0c4baf0a73acd0041bf9f71ea018deedab5ea84e
   leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  Stripe: 312b22a67af9fa55c246d26148b3f3a9636a0ff2
 
-PODFILE CHECKSUM: ed83902bb81cba4a88de81527e3155ccbc4f75c7
+PODFILE CHECKSUM: ce9ede615adba8953073cc7ff3b1de11d7b78968
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.1

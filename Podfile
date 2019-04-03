@@ -10,19 +10,7 @@ pod "Firebase/Core"
 pod "Firebase/Auth"
 pod "Firebase/Database"
 pod "AlamofireImage"
+pod "Stripe"
 
-  target 'sportsconnectTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'sportsconnectUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'sportsconnect' do
-	pod 'Animation', '~ 1.0'
-  end
 
 end

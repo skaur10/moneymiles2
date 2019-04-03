@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		141D5ACA2F87458A00A5FA0A /* Pods_sportsconnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C487B230665F5861826A1EE6 /* Pods_sportsconnect.framework */; };
-		1FBCEBDD0B0E0B50242ED662 /* Pods_sportsconnectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23606C329D4F594461025CB4 /* Pods_sportsconnectUITests.framework */; };
-		433BE71EC50FBA627D6BBC58 /* Pods_sportsconnectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F8B206E039DA8CED0C20901 /* Pods_sportsconnectTests.framework */; };
 		451544F42246E0CF008C9343 /* testInstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451544F32246E0CF008C9343 /* testInstructionsViewController.swift */; };
 		451544F62246E0E4008C9343 /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451544F52246E0E4008C9343 /* testViewController.swift */; };
 		453ABC542249A1F700775260 /* analyticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453ABC532249A1F700775260 /* analyticsViewController.swift */; };
@@ -39,6 +37,13 @@
 		45FBC9022217A157001670F7 /* sportsconnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBC9012217A157001670F7 /* sportsconnectUITests.swift */; };
 		495AF24B221942D900338962 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 495AF24A221942D900338962 /* GoogleService-Info.plist */; };
 		49B7C9782218671A00F690D8 /* eventsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B7C9772218671A00F690D8 /* eventsTableViewCell.swift */; };
+		4A44AA3E22504F6100367B70 /* CheckoutRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A44AA3A22504F6000367B70 /* CheckoutRowView.swift */; };
+		4A44AA3F22504F6100367B70 /* BrowseProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A44AA3B22504F6000367B70 /* BrowseProductsViewController.swift */; };
+		4A44AA4022504F6100367B70 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A44AA3C22504F6000367B70 /* Buttons.swift */; };
+		4A44AA4122504F6100367B70 /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A44AA3D22504F6000367B70 /* CheckoutViewController.swift */; };
+		4A44AA4322504F6B00367B70 /* MyAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A44AA4222504F6B00367B70 /* MyAPIClient.swift */; };
+		4A44AA4522504F7400367B70 /* PaymentContextFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A44AA4422504F7400367B70 /* PaymentContextFooterView.swift */; };
+		4A44AA4722504F7A00367B70 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A44AA4622504F7A00367B70 /* SettingsViewController.swift */; };
 		9750D26022194D4E00EB36F9 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9750D25F22194D4E00EB36F9 /* LaunchScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -60,8 +65,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0F8B206E039DA8CED0C20901 /* Pods_sportsconnectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sportsconnectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		23606C329D4F594461025CB4 /* Pods_sportsconnectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sportsconnectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		451544F32246E0CF008C9343 /* testInstructionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testInstructionsViewController.swift; sourceTree = "<group>"; };
 		451544F52246E0E4008C9343 /* testViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testViewController.swift; sourceTree = "<group>"; };
 		453ABC532249A1F700775260 /* analyticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = analyticsViewController.swift; sourceTree = "<group>"; };
@@ -97,13 +100,16 @@
 		45FBC9032217A157001670F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		495AF24A221942D900338962 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		49B7C9772218671A00F690D8 /* eventsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eventsTableViewCell.swift; sourceTree = "<group>"; };
-		6716AA5A791F18FE2F9C752C /* Pods-sportsconnectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sportsconnectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sportsconnectUITests/Pods-sportsconnectUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		89C2ADAE5048634E2A114F56 /* Pods-sportsconnectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sportsconnectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sportsconnectUITests/Pods-sportsconnectUITests.release.xcconfig"; sourceTree = "<group>"; };
-		93F4A67A37306B23107A15AD /* Pods-sportsconnectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sportsconnectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sportsconnectTests/Pods-sportsconnectTests.release.xcconfig"; sourceTree = "<group>"; };
+		4A44AA3A22504F6000367B70 /* CheckoutRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutRowView.swift; sourceTree = "<group>"; };
+		4A44AA3B22504F6000367B70 /* BrowseProductsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowseProductsViewController.swift; sourceTree = "<group>"; };
+		4A44AA3C22504F6000367B70 /* Buttons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		4A44AA3D22504F6000367B70 /* CheckoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
+		4A44AA4222504F6B00367B70 /* MyAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAPIClient.swift; sourceTree = "<group>"; };
+		4A44AA4422504F7400367B70 /* PaymentContextFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentContextFooterView.swift; sourceTree = "<group>"; };
+		4A44AA4622504F7A00367B70 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		9750D25F22194D4E00EB36F9 /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
 		C487B230665F5861826A1EE6 /* Pods_sportsconnect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sportsconnect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFCD0E51D2195EEE7437948D /* Pods-sportsconnect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sportsconnect.release.xcconfig"; path = "Pods/Target Support Files/Pods-sportsconnect/Pods-sportsconnect.release.xcconfig"; sourceTree = "<group>"; };
-		E7395DF1555A1CBB074A0768 /* Pods-sportsconnectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sportsconnectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sportsconnectTests/Pods-sportsconnectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F2E6ECE1A7E443E8B18417E0 /* Pods-sportsconnect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sportsconnect.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sportsconnect/Pods-sportsconnect.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,7 +126,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				433BE71EC50FBA627D6BBC58 /* Pods_sportsconnectTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,7 +133,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FBCEBDD0B0E0B50242ED662 /* Pods_sportsconnectUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,6 +164,7 @@
 		45FBC8E02217A154001670F7 /* sportsconnect */ = {
 			isa = PBXGroup;
 			children = (
+				4A44AA3922504DA700367B70 /* Stripe */,
 				45FBC8E12217A154001670F7 /* AppDelegate.swift */,
 				45FBC8E52217A154001670F7 /* Main.storyboard */,
 				45FBC8E82217A157001670F7 /* Assets.xcassets */,
@@ -211,12 +216,24 @@
 			path = sportsconnectUITests;
 			sourceTree = "<group>";
 		};
+		4A44AA3922504DA700367B70 /* Stripe */ = {
+			isa = PBXGroup;
+			children = (
+				4A44AA4622504F7A00367B70 /* SettingsViewController.swift */,
+				4A44AA4422504F7400367B70 /* PaymentContextFooterView.swift */,
+				4A44AA4222504F6B00367B70 /* MyAPIClient.swift */,
+				4A44AA3B22504F6000367B70 /* BrowseProductsViewController.swift */,
+				4A44AA3C22504F6000367B70 /* Buttons.swift */,
+				4A44AA3A22504F6000367B70 /* CheckoutRowView.swift */,
+				4A44AA3D22504F6000367B70 /* CheckoutViewController.swift */,
+			);
+			path = Stripe;
+			sourceTree = "<group>";
+		};
 		AD6496D89981073E1B1C65C8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				C487B230665F5861826A1EE6 /* Pods_sportsconnect.framework */,
-				0F8B206E039DA8CED0C20901 /* Pods_sportsconnectTests.framework */,
-				23606C329D4F594461025CB4 /* Pods_sportsconnectUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -226,10 +243,6 @@
 			children = (
 				F2E6ECE1A7E443E8B18417E0 /* Pods-sportsconnect.debug.xcconfig */,
 				DFCD0E51D2195EEE7437948D /* Pods-sportsconnect.release.xcconfig */,
-				E7395DF1555A1CBB074A0768 /* Pods-sportsconnectTests.debug.xcconfig */,
-				93F4A67A37306B23107A15AD /* Pods-sportsconnectTests.release.xcconfig */,
-				6716AA5A791F18FE2F9C752C /* Pods-sportsconnectUITests.debug.xcconfig */,
-				89C2ADAE5048634E2A114F56 /* Pods-sportsconnectUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -260,7 +273,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45FBC9092217A157001670F7 /* Build configuration list for PBXNativeTarget "sportsconnectTests" */;
 			buildPhases = (
-				6441D06BDEF958A994A393BB /* [CP] Check Pods Manifest.lock */,
 				45FBC8EE2217A157001670F7 /* Sources */,
 				45FBC8EF2217A157001670F7 /* Frameworks */,
 				45FBC8F02217A157001670F7 /* Resources */,
@@ -279,7 +291,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45FBC90C2217A157001670F7 /* Build configuration list for PBXNativeTarget "sportsconnectUITests" */;
 			buildPhases = (
-				A48A8312B44A9E8B1A1644D3 /* [CP] Check Pods Manifest.lock */,
 				45FBC8F92217A157001670F7 /* Sources */,
 				45FBC8FA2217A157001670F7 /* Frameworks */,
 				45FBC8FB2217A157001670F7 /* Resources */,
@@ -366,24 +377,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6441D06BDEF958A994A393BB /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-sportsconnectTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		98F13F53CEA42A0592425F23 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -402,35 +395,18 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A48A8312B44A9E8B1A1644D3 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-sportsconnectUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		CCE20FC9BD257F80C54C193D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-sportsconnect/Pods-sportsconnect-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-sportsconnect/Pods-sportsconnect-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Stripe/Stripe.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -440,12 +416,13 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stripe.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sportsconnect/Pods-sportsconnect-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sportsconnect/Pods-sportsconnect-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -455,6 +432,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A44AA4022504F6100367B70 /* Buttons.swift in Sources */,
 				45FBC8E42217A154001670F7 /* ViewController.swift in Sources */,
 				45851C2422183FDA002C7CB1 /* eventsViewController.swift in Sources */,
 				45851C1E22183F80002C7CB1 /* signupViewController.swift in Sources */,
@@ -463,6 +441,7 @@
 				45851C3422198F20002C7CB1 /* eventsModel.swift in Sources */,
 				45851C3222196551002C7CB1 /* organizeEventsViewController.swift in Sources */,
 				453ABC562249A20700775260 /* competitionViewController.swift in Sources */,
+				4A44AA3F22504F6100367B70 /* BrowseProductsViewController.swift in Sources */,
 				45FBC8E22217A154001670F7 /* AppDelegate.swift in Sources */,
 				451544F62246E0E4008C9343 /* testViewController.swift in Sources */,
 				45851C2622183FE8002C7CB1 /* messagingViewController.swift in Sources */,
@@ -473,11 +452,16 @@
 				45851C362219BE3A002C7CB1 /* messagesModel.swift in Sources */,
 				45BC0F2E2237F66C007F63DF /* weekViewController.swift in Sources */,
 				45851C2022183F9D002C7CB1 /* homeViewController.swift in Sources */,
+				4A44AA4722504F7A00367B70 /* SettingsViewController.swift in Sources */,
+				4A44AA4122504F6100367B70 /* CheckoutViewController.swift in Sources */,
+				4A44AA4322504F6B00367B70 /* MyAPIClient.swift in Sources */,
+				4A44AA4522504F7400367B70 /* PaymentContextFooterView.swift in Sources */,
 				45851C382219BFF0002C7CB1 /* messageTableViewCell.swift in Sources */,
 				9750D26022194D4E00EB36F9 /* LaunchScreenViewController.swift in Sources */,
 				45851C30221907C1002C7CB1 /* activitiesModel.swift in Sources */,
 				453ABC5C2249BE4C00775260 /* compSignUpViewController.swift in Sources */,
 				451544F42246E0CF008C9343 /* testInstructionsViewController.swift in Sources */,
+				4A44AA3E22504F6100367B70 /* CheckoutRowView.swift in Sources */,
 				453ABC542249A1F700775260 /* analyticsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -685,7 +669,6 @@
 		};
 		45FBC90A2217A157001670F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7395DF1555A1CBB074A0768 /* Pods-sportsconnectTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -706,7 +689,6 @@
 		};
 		45FBC90B2217A157001670F7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93F4A67A37306B23107A15AD /* Pods-sportsconnectTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -727,7 +709,6 @@
 		};
 		45FBC90D2217A157001670F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6716AA5A791F18FE2F9C752C /* Pods-sportsconnectUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -747,7 +728,6 @@
 		};
 		45FBC90E2217A157001670F7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C2ADAE5048634E2A114F56 /* Pods-sportsconnectUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
